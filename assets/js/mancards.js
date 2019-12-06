@@ -1,5 +1,3 @@
-'use strict';
-
 // Twitter JS include
 window.twttr = (function (d, s, id) {
   var js
