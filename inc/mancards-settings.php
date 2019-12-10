@@ -5,7 +5,6 @@
         exit;
     }
 
-
     // create custom plugin settings menu
     add_action( 'admin_menu', 'admin_menu' );
 
@@ -23,7 +22,6 @@
         //call register settings function
         add_action( 'admin_init', 'manzilak_cards_plugin_settings' );
     }
-
 
     function manzilak_cards_plugin_settings() {
         //register our settings
