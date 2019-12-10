@@ -60,6 +60,7 @@
         <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge,chrome=1\" />
         <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1\" />
         ";
+        
         $facebook_home_og = "
         <!-- Facebook Home OG Tags -->
         <meta property=\”og:locale\” content=\”{$website_charset}\” />
@@ -70,11 +71,13 @@
         <meta property=\"fb:app_id\" content=\"{$facebook_app_id}\" />
         <meta property=\"og:image\" content=\"{$website_image}\" />
         ";
+        
         $schema_home_tags = "
         <!-- Schema Home Tags -->
         <meta itemprop=\”name\” content=\”{$website_title}\" />
         <meta itemprop=\description\” content=\"{$website_subtitle}\" />
         ";
+        
         $twitter_home_cards = "
         <!-- Twitter Article Cards Tags -->
         <meta name=\"twitter:title\" content=\"{$website_title}\" />
@@ -96,6 +99,7 @@
         <meta name=\"robots\" content=\"noarchive,noodp,noydir\" />
         <meta name=\"genre\" content=\"News\" />
         ";
+        
         $facebook_article_og = "
         <!-- Facebook Article OG Tags -->
         <meta property=\”og:locale\” content=\”{$website_charset}\” />
@@ -111,6 +115,7 @@
         <meta property=\"article:section_url\" content=\"{$article_link}\">
         <meta property=\"fb:app_id\" content=\"{$facebook_app_id}\" />
         ";
+        
         $schema_article_tags = "
         <!-- Schema Article Tags -->
         <meta itemprop=\”name\” content=\”{$article_title}\" />
@@ -123,6 +128,7 @@
         <meta itemprop=\"genre\ content=\"News\">
         <meta itemprop=\"image\" content=\"{$article_image}\" />
         ";
+        
         $twitter_article_cards = "
         <!-- Twitter Article Cards Tags -->
         <meta name=\"twitter:title\" content=\"{$article_title}\" />
