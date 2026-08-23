@@ -18,6 +18,7 @@
         
         // Article Data
         $article_title = is_single() ? strip_tags( $post->post_title ) : '';
+        
         if( $post && $post->post_excerpt === "" ) {
             $excerpt = strip_tags( $post->post_content );
             $excerpt = explode( ' ' , $excerpt );
